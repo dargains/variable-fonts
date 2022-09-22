@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import './reset.css';
+
+@font-face {
+  font-family: "Inter Variable";
+  src: url("./fonts/Inter.var.woff2") format("woff2");
+  font-weight: 100 900;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Roboto Flex";
+  src: url("./fonts/RobotoFlex.ttf") format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Graduate";
+  src: url("./fonts/GRADUATE.ttf") format("truetype");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Grotesk 1001";
+  src: url("./fonts/Grotesk1001GX.ttf") format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Amstelvar";
+  src: url("./fonts/Amstelvar-Roman.ttf") format('truetype');
+  font-weight: 100 900;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
