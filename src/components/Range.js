@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default Range = ({ initialValue, min, max, step, label, handleChange }) => {
+const Range = ({ initialValue, min, max, step, label, handleChange }) => {
   const [value, setValue] = useState(initialValue)
   return (
     <div className="input">
@@ -23,3 +23,5 @@ export default Range = ({ initialValue, min, max, step, label, handleChange }) =
     </div>
   )
 }
+
+export default Range
