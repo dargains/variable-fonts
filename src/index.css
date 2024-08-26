@@ -1,4 +1,4 @@
-@import './reset.css';
+@import "./reset.css";
 
 @font-face {
   font-family: "Inter Variable";
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Roboto Flex";
-  src: url("./fonts/RobotoFlex.ttf") format('truetype');
+  src: url("./fonts/RobotoFlex.ttf") format("truetype");
   font-weight: 100 900;
 }
 
@@ -20,13 +20,19 @@
 
 @font-face {
   font-family: "Grotesk 1001";
-  src: url("./fonts/Grotesk1001GX.ttf") format('truetype');
+  src: url("./fonts/Grotesk1001GX.ttf") format("truetype");
   font-weight: 100 900;
 }
 
 @font-face {
   font-family: "Amstelvar";
-  src: url("./fonts/Amstelvar-Roman.ttf") format('truetype');
+  src: url("./fonts/Amstelvar-Roman.ttf") format("truetype");
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "Vodafone";
+  src: url("./fonts/Vodafone.woff2") format("woff2");
   font-weight: 100 900;
 }
 
